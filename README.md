@@ -11,4 +11,5 @@ docker-compose up -d
 Service will be available on: http://localhost:5000/
 
 docker exec flask-on-docker_web_1 python manage.py create_db
+
 docker exec flask-on-docker_web_1 python manage.py seed_db
